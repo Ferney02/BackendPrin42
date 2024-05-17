@@ -13,6 +13,8 @@ app.use(cors());
 app.use(express.json({ extended: true }));
 
 
+
+
 //Se crean las rutas
 app.use("/api/usuarios", require("./routers/usuarios"));
 app.use("/api/auth", require("./routers/auth"));
